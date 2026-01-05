@@ -1,17 +1,16 @@
 /*
-Hello world 출력하기
+'Hello' 출력하기
  */
 
 import java.util.*;
 import java.io.*;
 
 public class Main{
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter pw = new PrintWriter(new BufferedOutputStream(System.out));
-        pw.println("Hello World");
+        pw.println("'Hello'");
         br.close();
         pw.close();
     }
 }
-
